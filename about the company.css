@@ -1,0 +1,304 @@
+<style type="text/css">
+          .bgcolor{background-color: #f4f3ee ;}
+          .bgcolor2{background-color: #F8F9FA;}
+          .bgcolor3{background-color: #e1e5ee;}
+           .bgcolor4{background-color: white;}
+
+          
+
+          .active{
+              color: red !important;
+          }
+
+
+          .Creference{
+              color:white;
+              font-family: 'Merriweather', serif;
+              font-size: max(3vw,50px);
+              margin: 20px;
+              margin-top: 250px;
+              position: relative;
+              z-index: 100;
+              width: 95%;
+              padding: 0px 30px 0px 30px;
+
+          }
+
+          .Creference1{
+              font-family: 'Merriweather', serif;
+              font-size: max(2vw,30px);
+              margin: 0px;
+              margin-top: 80px;
+              z-index: 100;
+               width: 100%;
+              text-align: center;
+              padding: 0px 30px 0px 30px;
+              margin: 70px 0px 30px 0px;
+              color: #fb8351;
+          }
+
+          .Creference2{
+              font-family: 'Merriweather', serif;
+              font-size: max(1vw,18px);
+              margin-top: 10px;
+              z-index: 100;
+              width: 90%;
+              text-align: justify;
+              padding: 0px 30px 40px 30px;
+              background-color: ;
+               margin: 30px;
+          }
+
+          .Creference3{
+             font-family: 'Merriweather', serif;
+              font-size: max(1vw,18px);
+              width: 90%;
+              text-align: justify;
+              padding: 0px 0px 30px 0px;
+              background-color: ;
+               margin: 50px 0px 0px 0px ;
+          }
+
+          .Creference4, .Creference5 ,.Creference9 ,.Creference10{
+             font-family: 'Merriweather', serif;
+              font-size: max(1vw,18px);
+              width: 90%;
+              text-align: justify;
+              padding: 60px 0px 30px 0px;
+              background-color: ;
+               margin: 30px 0px 0px 0px ;
+          }
+
+          .Creference5{
+            background-color: #F8F9FA;
+             margin: 70px 0px 70px 0px ;
+             padding: 20px 20px 30px 20px;
+             text-align: center;
+          }
+
+          .Creference9
+          {
+            margin: 0px;
+             background-color: #F8F9FA;
+              padding: 20px 20px 30px 20px;
+              text-align: center;
+          }
+
+          .Creference10
+          {
+            margin: 0px;
+             background-color: white;
+              padding: 20px 20px 30px 20px;
+              text-align: justify;
+          }
+
+
+
+          .Creferencecontent{
+              color:grey;
+              font-family: 'Merriweather', serif;
+              font-size: 15px;
+              margin: 20px;
+          }
+          .Creferencecontent2{
+              color:white;
+              font-family: 'Merriweather', serif;
+              font-size: 15px;
+              margin: 20px;
+          }
+
+          .bg1{
+            background-image: url("pic/a2.jpg");
+            background-size: cover;
+            background-position: bottom;
+            height: 600px;
+            padding: 0px;
+            background-attachment: fixed;
+          }
+
+          .trans{
+            width:100%;
+            height: 600px;
+            background-color: black;
+            opacity: 0.6;
+            position: absolute;
+          }
+
+          .p1{
+             color:white;
+              font-family: 'Merriweather', serif;
+              font-size: max(1vw,20px);
+              margin-top: 10px;
+              z-index: 100;
+          }
+
+          .col-lg-2{
+            background-color: ;
+          }
+
+          .bg2{
+            background-image: url("pic/a3.jpg");
+            background-size: cover;
+            height: 500px;
+          }
+
+          .p2{
+             font-family: 'Merriweather', serif;
+              font-size: max(1vw,30px);
+              margin-top: 20px;
+              width: 100%;
+
+              color: #fb8351;
+          }
+
+           .bg3{
+            background-image: url("pic/b1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 500px;
+            background-color: white;
+          }
+
+          .pic1{
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            object-fit: contain;
+          }
+
+      .nav-link{
+    		font-size: 20px;
+    		margin: 7px 5px 0px 5px;
+    	}
+
+    	.nav-link:hover .hr3{
+    		width: 100%;
+    		opacity: 1;
+    	}
+
+    	.hr3{
+    		width: 0px;
+    		transition: 0.5s;	
+    		border:  1px solid #fb8351;
+    		margin: 0px;
+    		margin-top: 7px;
+    		opacity: 0;
+
+    	}
+
+
+    	.box55{
+    		width: 100%;
+    		background-color: rgba(0,0,0,.2);
+    		margin: 0px 0px 0px 0px;
+    		font-size: max(3vw,30px);
+    		text-align: center;
+    		padding: 230px 25px 270px 25px;
+    		font-family: 'Source Sans Pro', sans-serif;
+    		letter-spacing: 2px;
+    		color: white;
+    		height: 550px
+    	}
+
+    	.smalltitle{
+    		color: whitesmoke;
+    		font-size: 16px;
+    		font-family: 'Nunito', sans-serif;
+    	}
+
+    	.p15{
+    		color: #e9ecef;
+    		font-family: 'Montserrat', sans-serif;
+    	}
+
+    	a{
+    		text-decoration: none;
+    		color: #e9ecef	;
+    	}
+
+    	a:hover{
+    		color: #fb8351;
+    	}
+
+    	.hrfooter{
+    		width: 100%;
+    		opacity: 0.5;
+    		background-color: gray;
+    		margin-top: 30px;
+    		margin-bottom: 30px;
+    	}
+
+    	.p11{
+    		color: whitesmoke;
+    		font-size: 16px;
+    		text-align: center;
+    		opacity: 0.7;
+    	}
+
+    	.b{
+        font-family: 'DM Serif Text', serif;
+        font-size: 24px;
+        position: relative;
+        bottom: 5px;
+        margin: 10px;
+      }
+
+        .pc1{
+            width: 100%;
+
+        }
+
+        .nv{
+        animation-name: down;
+      animation-duration: 1s;
+        animation-delay: 0s;
+        transition: 0.3s;
+        background-color: ;
+        height:;
+      }
+
+      @keyframes down{
+        0%   {height:0px;}
+        100% {height: 98px;}
+      }
+
+    .tx{
+        animation-name: fade;
+      animation-duration: 1s;
+        animation-delay: 0s;
+        transition: 0.1s;
+      }
+
+      @keyframes fade{
+        0%   {opacity: 0;}
+        100% {opacity: 1;}
+      }
+
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 1s all ease;
+    }
+
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .reveal1{
+      position: relative;
+      opacity: 0;
+      transition: 1s all ease;
+    }
+
+    .reveal1.active{
+      opacity: 1;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+          </style>

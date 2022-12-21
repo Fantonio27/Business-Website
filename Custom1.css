@@ -1,0 +1,21 @@
+.picture1{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no repeat;
+	min-height: 85vh;
+	position: relative;
+	color: white;
+}
+.color-overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+	width: 100%;
+}
+h1{
+	font-size: 3rem;
+}
+.singleCol{
+	max-width: 650px;
+	margin: 0 auto;
+}

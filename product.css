@@ -1,0 +1,355 @@
+ <style>
+    	body{
+    		margin: 0px;
+    	}
+
+    	.bgcolor{ background-color: #f4f3ee;}
+    	.bgcolor1{ background-color: green;}
+    	.bgcolor2{ background-color: white;}
+
+    	.n{
+    		padding: 0px;
+    	}
+    	.bg{
+    		background-image: url("pic/bgforproduct.jpg");
+    		background-position: center;
+    		background-size: cover;
+    		background-repeat: no-repeat;
+    		color: white;	
+    		background-attachment: fixed;
+    	}
+
+    	.box{
+    		width: 100%;
+    		background-color: rgba(0,0,0,.3);
+    		margin: 0px 0px 0px 0px;
+    		font-size: max(4vw,50px);
+    		text-align: center;
+    		padding: 230px 25px 270px 25px;
+    		font-family: 'Source Sans Pro', sans-serif;
+    		letter-spacing: 2px;
+
+    	}
+
+    	.box1{
+    		width: 100%;
+    		height: ;
+    		background-color: ;
+    		padding: 10px;
+    	}
+
+    	.p2, .p3 ,.p4{
+    		font-size: 24px;
+    		text-align: center;
+    		font-family: 'Karla', sans-serif;
+    		margin-top: 10px;
+    		color: #161a1d;
+    	}
+
+    	.p3{
+    		font-size: 20px;
+    		font-family: 'Karla', sans-serif;
+    		color: #ff6700;
+    		margin-top: 0px;
+    		position: relative;
+    		bottom: 18px;
+
+    	}
+
+    	.hr1{
+    		width: 35px;
+    		opacity: 0.5;
+    	}
+
+    	.pic{
+    		object-fit: cover;
+    		object-position: center;
+    		width: 100%;
+    		height: ;
+    		background-color:;	
+    	}
+
+    	.title1{
+    		font-size: 18px;
+    		margin-top: 60px;
+    		font-family: 'Noto Sans KR', sans-serif;
+    		letter-spacing: 2px;
+    	}
+
+    	.title2, .title4 ,.title5{
+    		font-size: 37px;
+    		font-family: 'Libre Baskerville', serif;
+    		margin-bottom: 50px;
+    		margin-top: 20px;
+    	}
+
+    	.title4{
+    		font-size: 26px;
+    		margin: 75px 10px 20px 10px;
+    	}
+
+    	.title5{
+    		font-size: 50px;
+    		margin: 140px 10px 20px 10px;
+    	}
+
+    	.hr3{
+    		opacity: 1;
+    		background-color: #ff6700;
+    		width: 35px;
+    		border: 1px solid #ff6700;
+    	}
+
+    	.pic1{
+    		object-fit: contain;
+    		width: 100%;
+    	}
+
+    	.hr2{
+    		width: 100%;
+    		opacity: 0.2;
+    		margin-bottom: 40px;
+    	}
+
+    	.box2{
+    		background-color: white;
+    		width: 100%;
+    		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    	}
+
+    	.p4{
+    		background-color: #f8f9fa;
+    		padding: 7px 0px 5px 15px;
+    		margin: 0px;
+    		text-align: left;
+    		font-size: 22px;
+    		font-family: 'Assistant', sans-serif;
+    		margin-bottom: 40px;
+    	}
+
+    	.p5{
+    		font-family: 'Assistant', sans-serif;
+    		font-size: 15px;
+    		color: gray;
+    	}
+
+    	.p7{
+    		font-family: 'Assistant', sans-serif;
+    		font-size: 22px;
+    		margin-bottom: 0px;
+    	}
+
+    	.p8{
+    		font-family: 'Assistant', sans-serif;
+    		font-size: 18px;
+    		color: #ff6700;
+    	}
+
+    	.bg1, .bg2 ,.bg3 , .bg4 ,.bg5,.bg6,.bg7,.bg8{
+    		background-image: url("pic/f18.jpg");
+    		background-size: cover;
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		height: 467px;
+    		margin-bottom: 30px;
+    	}
+
+    	.bg2{
+    		background-image: url("pic/f24.jpg");
+    	}
+
+    	.bg3{
+    		background-image: url("pic/f21.jpg");
+    	}
+
+    	.bg4{
+    		background-image: url("pic/f14.jpg");
+    	}
+
+    	.bg5{
+    		background-image: url("pic/f25.jpeg");
+    	}
+
+    	.bg6{
+    		background-image: url("pic/f30.jpg");
+
+    	}
+
+    	.bg7{
+    		background-image: url("pic/f35.jpg");
+
+    	}
+
+    	.bg8{
+    		background-image: url("pic/f354.jpg");
+
+    		
+    	}
+
+    	.mh{
+    		height:467px;
+    		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    	}
+
+    	.shadow{
+    		box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    	}
+
+
+
+    	.smallbox{
+    		width: 100%;
+    		margin: 0px 0px 0px 0px;
+    		height: 40px;
+    		background-color: white;
+    	}
+
+    	.square {
+		  width: 140px;
+		  height: 70px;
+		  background: #ef8354;
+		  font-size: 24px;
+		  font-family: 'Assistant', sans-serif;
+		  padding: 5px 0px 0px 15px ; 
+		  color: white;
+		}
+
+		.p10{
+			font-size:20px;
+			color: white;
+			font-family: 'Assistant', sans-serif;
+			position: relative;
+			bottom: 3px;
+		}
+    	
+    	.nav-link{
+    		font-size: 20px;
+    		margin: 7px 5px 0px 5px;
+    	}
+
+    	.nav-link:hover .hr3{
+    		width: 100%;
+    		opacity: 1;
+    	}
+
+    	.hr3{
+    		width: 0px;
+    		transition: 0.5s;	
+    		border:  1px solid #fb8351;
+    		margin: 0px;
+    		margin-top: 7px;
+    		opacity: 0;
+
+    	}
+
+
+    	.box55{
+    		width: 100%;
+    		background-color: rgba(0,0,0,.2);
+    		margin: 0px 0px 0px 0px;
+    		font-size: max(3vw,30px);
+    		text-align: center;
+    		padding: 230px 25px 270px 25px;
+    		font-family: 'Source Sans Pro', sans-serif;
+    		letter-spacing: 2px;
+    		color: white;
+    		height: 550px
+    	}
+
+    	.smalltitle{
+    		color: whitesmoke;
+    		font-size: 16px;
+    		font-family: 'Nunito', sans-serif;
+    	}
+
+    	.p15{
+    		color: #e9ecef;
+    		font-family: 'Montserrat', sans-serif;
+    	}
+
+    	a{
+    		text-decoration: none;
+    		color: #e9ecef	;
+    	}
+
+    	a:hover{
+    		color: #fb8351;
+    	}
+
+    	.hrfooter{
+    		width: 100%;
+    		opacity: 0.5;
+    		background-color: gray;
+    		margin-top: 30px;
+    		margin-bottom: 30px;
+    	}
+
+    	.p11{
+    		color: whitesmoke;
+    		font-size: 16px;
+    		text-align: center;
+    		opacity: 0.7;
+    	}
+
+    	.b{
+    		font-family: 'DM Serif Text', serif;
+    		font-size: 24px;
+    		position: relative;
+    		bottom: 5px;
+    		margin: 10px;
+    	}
+
+    	.nv{
+    		animation-name: down;
+ 			animation-duration: 1s;
+  			animation-delay: 0s;
+  			transition: 0.3s;
+  			background-color: ;
+  			height:;
+    	}
+
+    	@keyframes down{
+			  0%   {height:0px;}
+			  100% {height: 98px;}
+			}
+
+		.tx{
+    		animation-name: fade;
+ 			animation-duration: 1s;
+  			animation-delay: 0s;
+  			transition: 0.1s;
+    	}
+
+    	@keyframes fade{
+			  0%   {opacity: 0;}
+			  100% {opacity: 1;}
+			}
+
+		.reveal{
+		  position: relative;
+		  transform: translateY(150px);
+		  opacity: 0;
+		  transition: 1s all ease;
+		}
+
+		.reveal.active{
+		  transform: translateY(0);
+		  opacity: 1;
+		}
+
+		.reveal1{
+		  position: relative;
+		  opacity: 0;
+		  transition: 1s all ease;
+		}
+
+		.reveal1.active{
+		  opacity: 1;
+		}
+
+		html {
+		  scroll-behavior: smooth;
+		}
+
+
+    </style>
